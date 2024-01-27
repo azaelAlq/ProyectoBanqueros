@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script defer src="Banqueros.js"></script>
+  <meta charset="UTF-8" />
+
+  <title>Banqueros</title>
+  <link rel="stylesheet" href="Banquero.css" />
+</head>
+
+<body>
+  <!-- -->
+  <section class="principal">
+    <!-- titulo de la pagina-->
+    <h1 id="titulo">BANQUEROS</h1>
+    <!-- -->
+    <div class="matrices">
+      <div class="CM">
+        <div class="inumero">
+          <p class="tNumero">Número de procesos</p>
+          <input id="np" type="number" />
+        </div>
+        <div class="inumero">
+          <p class="tNumero">Número de recursos</p>
+          <input id="nr" type="number" />
+        </div>
+      </div>
+      <!-- -->
+      <div id="Abtn" class="CM">
+        <button class="btn" onclick="Generar()">Generar</button>
+      </div>
+    </div>
+    <!-- -->
+    <div class="CM">
+      <p class="tNumero ins">Procesos ⭥</p>
+      <p class="tNumero ins">Recursos ⭤</p>
+    </div>
+    <!-- -->
+    <div id="M" class="CM">
+      <div class="matrices CM">
+        <p class="tNumero ins">Matriz de asignación</p>
+        <div id="M1D" class="M"></div>
+      </div>
+      <!-- -->
+      <div class="matrices CM">
+        <p class="tNumero ins">Matriz de máxima emanda</p>
+        <div id="M2D" class="M"></div>
+      </div>
+    </div>
+    <!-- -->
+    <div class="CM matrices">
+      <p class="tNumero ins">Arreglo recursos</p>
+      <div id="AR" class="A"></div>
+    </div>
+    <!-- -->
+    <div>
+      <div id="Abtnb" class="CM">
+        <button class="btn" onclick="generar()">Iniciar</button>
+      </div>
+    </div>
+    <!-- -->
+    <div id="cajaFinal" class="matrices CM">
+      <p id="textoFinal" class="tNumero ins">Esperando</p>
+    </div>
+    <!-- -->
+  </section>
+</body>
+
+</html>

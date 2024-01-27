@@ -1,0 +1,118 @@
+body {
+    background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 2rem;
+  }
+  .principal {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  #titulo {
+    color: beige;
+    margin-bottom: 1rem;
+  }
+  .CM {
+    display: flex;
+    background-color: azure;
+    padding: .68rem;
+    border-radius: 0.5rem;
+    gap: 1rem;
+    justify-content: space-around;
+  }
+  .M {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(3,1fr);
+    background-color: aliceblue;
+    gap: 2px;
+    
+  }
+  
+  .A {
+    background-color:aliceblue;
+    padding: .1rem;
+    border-radius: 1rem;
+    gap: .15rem;
+    display: flex;
+    margin: 0;
+  }
+
+  .numeros{
+    border: 2px solid black;
+    border-radius: .2rem;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nm{
+    background-color: aquamarine;
+    border-color: cadetblue;
+  }
+
+  .na{
+    background-color: cyan;
+    border-color: cadetblue;
+  }
+  .inumero{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: .7rem;
+  }
+  .tNumero{
+    background-color: aquamarine;
+    border: 2px solid cadetblue;
+    border-radius: 1rem;
+    padding: .65rem;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  #Abtn{
+    padding: 0;
+    padding-bottom: 1rem;
+    width: 10rem;
+  }
+
+  #Abtnb{
+    width: 10rem;
+  }
+  .ins{
+    font-size: 1.2rem;
+    padding: .5rem;
+    text-justify: center;
+  }
+  .matrices{
+    background-color:aliceblue ;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: .2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-radius: 0.5rem;
+  }
+
+  .btn {
+    background-color: cornflowerblue;
+    border: 2px solid cadetblue;
+    border-radius: 1rem;
+    padding: .5rem;
+    font-size: 1.2rem;
+    width: 9rem;
+    margin: 0;
+    width: 2000rem;
+}
+
+.btn:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+#cajaFinal{
+  margin-bottom: 2rem;
+}
+
